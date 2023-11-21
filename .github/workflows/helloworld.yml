@@ -1,4 +1,4 @@
-name: first-interaction
+name: Hello world
 
 on:
   issues:
@@ -8,7 +8,7 @@ on:
     types: [opened]
 
 jobs:
-  comment:
+  hello_world:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/github-script@v6
